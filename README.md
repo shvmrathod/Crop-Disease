@@ -1,4 +1,4 @@
-# Crop Disease Classification (Syngenta Task)
+# Crop Disease Classification 
 
 ## Problem Statement
 Build a machine learning model to classify plant diseases from leaf images to support early detection and timely intervention for farmers.
