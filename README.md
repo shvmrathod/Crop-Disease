@@ -35,13 +35,21 @@ Build a machine learning model to classify plant diseases from leaf images to su
 
 ---
 
+## Evaluation
+- Confusion matrix shows strong diagonal dominance indicating correct predictions  
+- Correct predictions demonstrate the model's ability to capture disease patterns  
+- Incorrect predictions mainly occur between visually similar disease classes  
+
+---
+
 ## Business Recommendation
 MobileNetV2 is recommended for deployment in Syngenta’s mobile application due to its strong balance of accuracy, speed, and lightweight architecture. The model performs well on unseen data and is suitable for real-time disease detection in field conditions. Its compact size makes it ideal for mobile deployment, enabling farmers to quickly identify crop diseases and take corrective actions.
 
 ---
 
-## Setup Instructions
+## Application (Gradio Demo)
+A simple Gradio-based web application is included for real-time disease prediction.
 
+### Run the app
 ```bash
-pip install tensorflow-macos tensorflow-metal
-pip install numpy pandas matplotlib seaborn scikit-learn pillow kaggle jupyter
+python app.py
